@@ -50,7 +50,7 @@ function App() {
         pl={2}
         display={"flex"}
         alignItems="baseline"
-        borderLeftWidth={4}
+        // borderLeftWidth={4}
         borderColor={"#62605D"}
       >
         <Text as={"b"} fontSize={"2xl"} color={"#62605D"}>
@@ -111,7 +111,7 @@ function App() {
         pl={2}
         display="flex"
         alignItems="baseline"
-        borderLeftWidth={4}
+        // borderLeftWidth={4}
         borderColor={"#62605D"}
       >
         <Text as={"b"} fontSize={"2xl"} color={"#62605D"}>
@@ -125,7 +125,7 @@ function App() {
         pl={2}
         display="flex"
         alignItems="baseline"
-        borderLeftWidth={4}
+        // borderLeftWidth={4}
         borderColor={"#62605D"}
       >
         <Text as={"b"} fontSize={"2xl"} color={"#62605D"}>
