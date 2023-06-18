@@ -20,7 +20,7 @@ const HostCard = ({
 }) => {
     return (
         <Card
-            maxW={'280px'}
+            maxW={'100%'}
             variant={'outline'}
             bg={'#f4f0e8'}
             borderColor={"#f4f0e8"}

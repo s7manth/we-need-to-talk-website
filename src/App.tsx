@@ -106,7 +106,7 @@ function App() {
                 Hosts
             </Text>
         </Box>
-        <Flex mt={4} display={'flex'} flexWrap={'wrap'}>
+        <Flex mt={4} flexWrap={'wrap'}>
             <HostCard name={'Shivang Gupta'} description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}/>
             <Spacer />
             <HostCard name={'Sumanth Yalamarty'} description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.'}/>
