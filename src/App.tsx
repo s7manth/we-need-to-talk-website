@@ -43,7 +43,7 @@ function App() {
         <Box mt={4} mb={2}>
             <Divider variant="dividerStyle" />
             <Text as='b' color='yellow.900' fontSize='2xl'>
-                THE PREAMBLE OF A SERIOUS CONVERSATION
+                THE PREAMBLE OF A SERIOUS CONVERSATION IS ALWAYS FUNNY
             </Text>
             <Divider variant="dividerStyle" />
         </Box>
