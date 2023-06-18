@@ -10,7 +10,17 @@ const dividerStyle = defineStyle({
 
 export const dividerTheme= defineStyleConfig({
   variants: { dividerStyle },
-})
+});
+
+const headingStyle = defineStyle({
+  fontFamily: "Merriweather",
+  fontWeight: "bold"
+});
+
+export const headingTheme= defineStyleConfig({
+  variants: { headingStyle },
+});
+
 
 const theme = extendTheme({
   styles: {
@@ -20,11 +30,9 @@ const theme = extendTheme({
       }
     })
   },
-  fonts: {
-    heading: `'Merriweather', serif`,
-  },
   components: {
-    Divider: dividerTheme
+    Divider: dividerTheme,
+    Heading: headingTheme
   },
   colors: {
     lightsteelblue: {

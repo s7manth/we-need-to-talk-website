@@ -63,3 +63,10 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+@font-face {
+  font-family: "Merriweather";
+  src: local("Merriweather"),
+  url("./fonts/Merriweather-BlackItalic.ttf") format("truetype");
+  font-weight: bold;
+}

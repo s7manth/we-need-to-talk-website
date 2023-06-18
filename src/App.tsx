@@ -9,10 +9,13 @@ import {
     Text,
     WrapItem, Wrap, Flex, Spacer,
 } from "@chakra-ui/react";
-import "@fontsource/merriweather/700-italic.css";
-import CustomBox from "./components/CustomBox.tsx";
+
 import { FaSmile, FaBolt, FaHeart, FaBrain } from "react-icons/fa";
-import HostCard from "./components/HostCard.tsx";
+
+import "@fontsource/merriweather/700-italic.css";
+
+import HostCard from "./components/HostCard";
+import CustomBox from "./components/CustomBox";
 
 
 function App() {
@@ -27,7 +30,7 @@ function App() {
                 </Text>
             </Box>
             <Box m={1}>
-                <Heading size='2xl'>
+                <Heading size='2xl' variant='headingStyle'>
                     We Need To Talk!
                 </Heading>
                 <Text size={'xs'}>
