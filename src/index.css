@@ -70,3 +70,10 @@ button:focus-visible {
     url("./fonts/Merriweather-BlackItalic.ttf") format("truetype");
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "GrandifloraOne";
+  src: local("GrandifloraOne"),
+  url("./fonts/GrandifloraOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
