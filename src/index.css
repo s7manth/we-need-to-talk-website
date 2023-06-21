@@ -70,3 +70,30 @@ button:focus-visible {
     url("./fonts/Merriweather-BlackItalic.ttf") format("truetype");
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "GrandifloraOne";
+  src: local("GrandifloraOne"),
+  url("./fonts/GrandifloraOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+  url("./fonts/Montserrat.ttf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PlayFair";
+  src: local("PlayFair"),
+  url("./fonts/PlayFair.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Solway";
+  src: local("Solway"),
+  url("./fonts/Solway-Bold.ttf") format("truetype");
+  font-weight: bold;
+}

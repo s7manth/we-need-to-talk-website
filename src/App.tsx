@@ -39,7 +39,7 @@ function App() {
 
       <Box mt={4} mb={2}>
         <Divider variant="dividerStyle" />
-        <Text as="b" color="yellow.900" fontSize="2xl">
+        <Text variant="taglineStyle" as="b" color="yellow.900" fontSize="2xl">
           THE PREAMBLE OF A SERIOUS CONVERSATION IS ALWAYS FUNNY
         </Text>
         <Divider variant="dividerStyle" />
@@ -65,7 +65,7 @@ function App() {
               icon={FaSmile}
               title={"Happiness"}
               modalContent={
-                "A state of well-being and contentment, fueled by positive " +
+                "The {pursuit of a} state of well-being and contentment, fueled by positive " +
                 "emotions and a sense of satisfaction."
               }
             />
@@ -77,7 +77,7 @@ function App() {
               title={"Fear"}
               modalContent={
                 "A primal emotion that protects us from harm " +
-                "and drives us to seek safety."
+                "and drives us to seek safety. Has the potential to blanket all the senses of a human being."
               }
             />
           </WrapItem>
@@ -87,7 +87,7 @@ function App() {
               icon={FaBrain}
               title={"Self-Actualization"}
               modalContent={
-                "The pursuit of personal growth, fulfillment, and " +
+                "The journey of personal growth, fulfillment, and " +
                 "reaching our highest potential."
               }
             />
@@ -99,7 +99,8 @@ function App() {
               title={"Love"}
               modalContent={
                 "The powerful force that connects us, brings joy, and " +
-                "fosters a sense of belonging."
+                "fosters a sense of belonging. Fear extinguishes, self actualisation" +
+                  " kicks in. Songs' lyrics become relatable as seeds of happiness are planted."
               }
             />
           </WrapItem>

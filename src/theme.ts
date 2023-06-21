@@ -21,6 +21,15 @@ export const headingTheme = defineStyleConfig({
   variants: { headingStyle },
 });
 
+const taglineStyle = defineStyle({
+  fontFamily: "Solway",
+  fontWeight: "bold",
+});
+
+export const taglineTheme = defineStyleConfig({
+  variants: { taglineStyle },
+});
+
 const theme = extendTheme({
   styles: {
     global: (props: never) => ({
@@ -32,6 +41,7 @@ const theme = extendTheme({
   components: {
     Divider: dividerTheme,
     Heading: headingTheme,
+    Text: taglineTheme,
   },
   colors: {
     lightsteelblue: {
