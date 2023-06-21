@@ -22,7 +22,7 @@ export const headingTheme = defineStyleConfig({
 });
 
 const taglineStyle = defineStyle({
-  fontFamily: "GrandifloraOne",
+  fontFamily: "Montserrat",
   fontWeight: "normal",
 });
 

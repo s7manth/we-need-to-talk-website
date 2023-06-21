@@ -65,7 +65,7 @@ function App() {
               icon={FaSmile}
               title={"Happiness"}
               modalContent={
-                "A (pursuit of a) state of well-being and contentment, fueled by positive " +
+                "The {pursuit of a} state of well-being and contentment, fueled by positive " +
                 "emotions and a sense of satisfaction."
               }
             />
@@ -87,7 +87,7 @@ function App() {
               icon={FaBrain}
               title={"Self-Actualization"}
               modalContent={
-                "The pursuit of personal growth, fulfillment, and " +
+                "The journey of personal growth, fulfillment, and " +
                 "reaching our highest potential."
               }
             />
