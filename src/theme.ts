@@ -22,8 +22,8 @@ export const headingTheme = defineStyleConfig({
 });
 
 const taglineStyle = defineStyle({
-  fontFamily: "Montserrat",
-  fontWeight: "normal",
+  fontFamily: "Solway",
+  fontWeight: "bold",
 });
 
 export const taglineTheme = defineStyleConfig({
