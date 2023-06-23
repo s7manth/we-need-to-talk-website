@@ -52,10 +52,10 @@ const CustomBox = ({
         {overlay}
         <ModalContent>
           <ModalHeader>
-            <Text fontSize={"3xl"}>{title}</Text>
+            <Text fontSize={"3xl"} fontFamily={"Hind"}>{title}</Text>
           </ModalHeader>
           <ModalBody>
-            <Text>{modalContent}</Text>
+            <Text fontFamily={"Hind-Regular"}>{modalContent}</Text>
           </ModalBody>
           <ModalFooter>
             <Button onClick={onClose}>Close</Button>

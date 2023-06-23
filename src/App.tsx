@@ -55,7 +55,7 @@ function App() {
         // borderLeftWidth={4}
         borderColor={"#62605D"}
       >
-        <Text as={"b"} fontSize={"2xl"} color={"#62605D"}>
+        <Text as={"b"} fontSize={"2xl"} color={"#62605D"} fontFamily={"Hind"}>
           The 4 Fundamentals
         </Text>
       </Box>
@@ -117,7 +117,7 @@ function App() {
         // borderLeftWidth={4}
         borderColor={"#62605D"}
       >
-        <Text as={"b"} fontSize={"2xl"} color={"#62605D"}>
+        <Text as={"b"} fontSize={"2xl"} color={"#62605D"} fontFamily={"Hind"}>
           Latest Episodes
         </Text>
       </Box>
@@ -131,7 +131,7 @@ function App() {
         // borderLeftWidth={4}
         borderColor={"#62605D"}
       >
-        <Text as={"b"} fontSize={"2xl"} color={"#62605D"}>
+        <Text as={"b"} fontSize={"2xl"} color={"#62605D"} fontFamily={"Hind"}>
           Hosts
         </Text>
       </Box>
@@ -155,7 +155,7 @@ function App() {
       </Flex>
 
       <Divider mt={6} />
-      <Text mt={3}>
+      <Text mt={3} fontFamily={"Hind-Regular"}>
         © Copyright 2023. We Need To Talk. All Rights Reserved.
       </Text>
     </Container>
