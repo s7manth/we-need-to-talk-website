@@ -139,7 +139,11 @@ function App() {
 
         <HostCard
           name={"Shivang Gupta"}
-          src={'./../../personal-images/Shivang.JPG'}
+          src={'../../personal-images/shivang.jpg'}
+          email={'mailto:shivanggupta2110@gmail.com'}
+          github={'https://github.com/Shivang211'}
+          twitter={'https://twitter.com/drunken_sailor2'}
+          website={'https://drunkensailor.site'}
           description={
             "Day-dreamer by day and dreamer by night, Shivang is a driven individual focused on thinking differently. In his free time, he loves to code, play sports, listen to music and flame influencers."
           }
@@ -147,9 +151,13 @@ function App() {
         <Spacer />
         <HostCard
           name={"Sumanth Yalamarty"}
-          src={''}
+          src={'../../personal-images/sumanth.jpg'}
+          email={'mailto:syalamarty002@gmail.com'}
+          github={'https://github.com/s7manth'}
+          twitter={'https://twitter.com/s7manth'}
+          website={'https://s7manth.me'}
           description={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "Ideation. Innovation. Transformation."
           }
         />
       </Flex>
