@@ -43,10 +43,10 @@ const HostCard = ({
                  boxSize='150px'/>
         </Center>
         <Stack mt="4" spacing="1">
-          <Text as="b" fontSize="2xl">
+          <Text as="b" fontSize="2xl" fontFamily={"Hind"}>
             {name}
           </Text>
-          <Text>{description}</Text>
+          <Text fontFamily={"Hind-Regular"}>{description}</Text>
         </Stack>
       </CardBody>
       <CardFooter justify={"center"}>
