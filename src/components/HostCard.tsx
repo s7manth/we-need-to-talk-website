@@ -39,7 +39,7 @@ const HostCard = ({
     >
       <CardBody>
         <Center>
-          <Img src={src} fallbackSrc='https://via.placeholder.com/150' borderRadius='full'
+          <Img src={src} borderRadius='full'
                  boxSize='150px'/>
         </Center>
         <Stack mt="4" spacing="1">
