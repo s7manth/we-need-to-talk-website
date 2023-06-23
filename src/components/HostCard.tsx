@@ -5,7 +5,10 @@ import {
   CardBody,
   CardFooter,
   Text,
-  Stack, Image, Center, Link
+  Stack,
+  Img,
+  Center,
+  Link
 } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/icons";
 import { FaLink, FaEnvelope, FaGithub, FaTwitter } from "react-icons/fa";
@@ -36,7 +39,7 @@ const HostCard = ({
     >
       <CardBody>
         <Center>
-          <Image src={src} fallbackSrc='https://via.placeholder.com/150' borderRadius='full'
+          <Img src={src} fallbackSrc='https://via.placeholder.com/150' borderRadius='full'
                  boxSize='150px'/>
         </Center>
         <Stack mt="4" spacing="1">
