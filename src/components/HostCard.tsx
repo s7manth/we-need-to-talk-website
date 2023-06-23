@@ -1,12 +1,11 @@
 import {
-  Avatar,
   Box,
   Button,
   Card,
   CardBody,
   CardFooter,
   Text,
-  Stack,
+  Stack, Image, Center
 } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/icons";
 import { FaLink, FaEnvelope, FaGithub, FaTwitter } from "react-icons/fa";
@@ -14,9 +13,12 @@ import { FaLink, FaEnvelope, FaGithub, FaTwitter } from "react-icons/fa";
 const HostCard = ({
   name,
   description,
+    src,
 }: {
   name: string;
   description: string;
+  src: string;
+
 }) => {
   return (
     <Card
@@ -26,7 +28,10 @@ const HostCard = ({
       borderColor={"#f4f0e8"}
     >
       <CardBody>
-        <Avatar size="2xl" />
+        <Center>
+          <Image src={src} fallbackSrc='https://via.placeholder.com/150' borderRadius='full'
+                 boxSize='150px'/>
+        </Center>
         <Stack mt="4" spacing="1">
           <Text as="b" fontSize="2xl">
             {name}

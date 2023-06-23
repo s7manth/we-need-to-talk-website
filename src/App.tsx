@@ -1,19 +1,21 @@
 import "./App.css";
 import {
-  Box,
-  Container,
-  Center,
-  Divider,
-  Heading,
-  HStack,
-  Text,
-  WrapItem,
-  Wrap,
-  Flex,
-  Spacer,
+    Box,
+    Container,
+    Center,
+    Divider,
+    Heading,
+    HStack,
+    Text,
+    WrapItem,
+    Wrap,
+    Flex,
+    Spacer,
+
+
 } from "@chakra-ui/react";
 
-import { FaSmile, FaBolt, FaHeart, FaBrain } from "react-icons/fa";
+import { FaSmile, FaGhost, FaHeart, FaBrain } from "react-icons/fa";
 
 import "@fontsource/merriweather/700-italic.css";
 
@@ -73,7 +75,7 @@ function App() {
           <WrapItem>
             <CustomBox
               colorScheme={"lightsteelblue"}
-              icon={FaBolt}
+              icon={FaGhost}
               title={"Fear"}
               modalContent={
                 "A primal emotion that protects us from harm " +
@@ -134,15 +136,18 @@ function App() {
         </Text>
       </Box>
       <Flex mt={4} flexWrap={"wrap"}>
+
         <HostCard
           name={"Shivang Gupta"}
+          src={'./../../personal-images/Shivang.JPG'}
           description={
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            "Day-dreamer by day and dreamer by night, Shivang is a driven individual focused on thinking differently. In his free time, he loves to code, play sports, listen to music and flame influencers."
           }
         />
         <Spacer />
         <HostCard
           name={"Sumanth Yalamarty"}
+          src={''}
           description={
             "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
           }
