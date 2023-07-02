@@ -127,9 +127,13 @@ function App() {
         <Accordion mt={4} allowToggle>
             <CustomAccordionItem title={"Episode 1: Sports and Emotions"}>
                 <VideoCard>
-                    <iframe width="500" height="281.5" src="https://www.youtube.com/embed/kjFNX8XLBtw"
-                            title="YouTube video player" frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    <iframe
+                            src="https://www.youtube.com/embed/kjFNX8XLBtw"
+                            width={"100%"}
+                            height={"100%"}
+                            title="YouTube video player"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                            gyroscope; picture-in-picture; web-share"
                             allowFullScreen>
                     </iframe>
                 </VideoCard>
