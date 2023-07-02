@@ -125,7 +125,7 @@ function App() {
 
 
         <Accordion mt={4} allowToggle>
-            <CustomAccordionItem title={"Episode 1: On Sports and Emotions"}>
+            <CustomAccordionItem title={"Episode 1: Sports and Emotions"}>
                 <VideoCard>
                     <iframe width="500" height="281.5" src="https://www.youtube.com/embed/kjFNX8XLBtw"
                             title="YouTube video player" frameBorder="0"
