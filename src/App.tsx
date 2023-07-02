@@ -1,5 +1,6 @@
 import "./App.css";
 import {
+    Accordion,
     Box,
     Container,
     Center,
@@ -11,8 +12,6 @@ import {
     Wrap,
     Flex,
     Spacer,
-
-
 } from "@chakra-ui/react";
 
 import { FaSmile, FaGhost, FaHeart, FaBrain } from "react-icons/fa";
@@ -21,6 +20,8 @@ import "@fontsource/merriweather/700-italic.css";
 
 import HostCard from "./components/HostCard";
 import CustomBox from "./components/CustomBox";
+import VideoCard from "./components/VideoCard.tsx";
+import CustomAccordionItem from "./components/CustomAccordionItem.tsx";
 
 function App() {
   return (
@@ -121,6 +122,19 @@ function App() {
           Latest Episodes
         </Text>
       </Box>
+
+
+        <Accordion mt={4} allowToggle>
+            <CustomAccordionItem title={"Episode 1: On Sports and Emotions"}>
+                <VideoCard>
+                    <iframe width="500" height="281.5" src="https://www.youtube.com/embed/kjFNX8XLBtw"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowFullScreen>
+                    </iframe>
+                </VideoCard>
+            </CustomAccordionItem>
+        </Accordion>
 
       <Divider mt={6} />
       <Box
