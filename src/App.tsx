@@ -125,13 +125,25 @@ function App() {
 
 
         <Accordion mt={4} allowToggle>
-            <CustomAccordionItem title={"Episode 2 Part One: The Search Of Belongingness"}>
+            <CustomAccordionItem title={"Episode 2 Part Two: Intoxications of Nice People"}>
+                <VideoCard>
+                    <iframe
+                        src="https://www.youtube.com/embed/hPtZYY2ens8"
+                        width={"100%"}
+                        height={"100%"}
+                        title=""
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                        gyroscope; picture-in-picture; web-share"
+                        allowFullScreen></iframe>
+                </VideoCard>
+            </CustomAccordionItem>
+            <CustomAccordionItem title={"Episode 2 Part One: The Search of Belongingness"}>
                 <VideoCard>
                     <iframe
                         src="https://www.youtube.com/embed/tn19FX8ZkMU"
                         width={"100%"}
                         height={"100%"}
-                        title="YouTube video player"
+                        title="Episode 2 Part One: The Search Of Belongingness"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media;
                         gyroscope; picture-in-picture; web-share"
                         allowFullScreen>
@@ -144,7 +156,7 @@ function App() {
                         src="https://www.youtube.com/embed/kjFNX8XLBtw"
                         width={"100%"}
                         height={"100%"}
-                        title="YouTube video player"
+                        title="Episode 1: Sports and Emotions"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media;
                         gyroscope; picture-in-picture; web-share"
                         allowFullScreen>
