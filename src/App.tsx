@@ -125,7 +125,7 @@ function App() {
 
 
         <Accordion mt={4} allowToggle>
-            <CustomAccordionItem title={"Episode 2 Part Two: Intoxications of Nice People"}>
+            <CustomAccordionItem title={"Episode 2 Part Two: Intoxications of (Nice) People"}>
                 <VideoCard>
                     <iframe
                         src="https://www.youtube.com/embed/hPtZYY2ens8"
