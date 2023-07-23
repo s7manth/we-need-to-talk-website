@@ -8,7 +8,7 @@ import {
   Stack,
   Img,
   Center,
-  Link
+  Link,
 } from "@chakra-ui/react";
 import { Icon } from "@chakra-ui/icons";
 import { FaLink, FaEnvelope, FaGithub, FaTwitter } from "react-icons/fa";
@@ -20,15 +20,15 @@ const HostCard = ({
   website,
   email,
   github,
-  twitter
+  twitter,
 }: {
   name: string;
   description: string;
   src: string;
-  website: string,
-  email: string,
-  github: string,
-  twitter: string
+  website: string;
+  email: string;
+  github: string;
+  twitter: string;
 }) => {
   return (
     <Card
@@ -39,8 +39,7 @@ const HostCard = ({
     >
       <CardBody>
         <Center>
-          <Img src={src} borderRadius='full'
-                 boxSize='150px'/>
+          <Img src={src} borderRadius="full" boxSize="150px" />
         </Center>
         <Stack mt="4" spacing="1">
           <Text as="b" fontSize="2xl" fontFamily={"Hind"}>
@@ -51,42 +50,34 @@ const HostCard = ({
       </CardBody>
       <CardFooter justify={"center"}>
         <Box display="flex" flexWrap={"wrap"}>
-          {
-            website
-              &&
+          {website && (
             <Link target={"_blank"} href={website}>
               <Button variant="ghost" colorScheme="facebook">
                 <Icon as={FaLink} />
               </Button>
             </Link>
-          }
-          {
-            email
-              &&
+          )}
+          {email && (
             <Link target={"_blank"} href={email}>
               <Button variant="ghost" colorScheme="teal">
                 <Icon as={FaEnvelope} />
               </Button>
             </Link>
-          }
-          {
-            twitter
-              &&
+          )}
+          {twitter && (
             <Link target={"_blank"} href={twitter}>
               <Button variant="ghost" colorScheme="twitter">
                 <Icon as={FaTwitter} />
               </Button>
             </Link>
-          }
-          {
-            github
-              &&
+          )}
+          {github && (
             <Link target={"_blank"} href={github}>
               <Button variant="ghost" colorScheme="gray">
                 <Icon as={FaGithub} />
               </Button>
             </Link>
-          }
+          )}
         </Box>
       </CardFooter>
     </Card>

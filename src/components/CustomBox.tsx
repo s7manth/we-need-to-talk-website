@@ -8,6 +8,7 @@ import {
   ModalHeader,
   ModalOverlay,
   Text,
+  Tooltip,
   useDisclosure,
 } from "@chakra-ui/react";
 
@@ -34,25 +35,29 @@ const CustomBox = ({
 
   return (
     <Box>
-      <Button
-        onClick={onOpen}
-        bgRepeat="no-repeat"
-        variant={"solid"}
-        height="170px"
-        width="170px"
-        colorScheme={colorScheme}
-        borderRadius={20}
-        borderWidth={3}
-      >
-        <Text fontSize={"3xl"}>
-          <Icon as={icon} w={12} h={12} />
-        </Text>
-      </Button>
+      <Tooltip placement={"top-start"} label={title} fontSize="md">
+        <Button
+          onClick={onOpen}
+          bgRepeat="no-repeat"
+          variant={"solid"}
+          height="170px"
+          width="170px"
+          colorScheme={colorScheme}
+          borderRadius={20}
+          borderWidth={3}
+        >
+          <Text fontSize={"3xl"}>
+            <Icon as={icon} w={12} h={12} />
+          </Text>
+        </Button>
+      </Tooltip>
       <Modal isCentered isOpen={isOpen} onClose={onClose}>
         {overlay}
         <ModalContent>
           <ModalHeader>
-            <Text fontSize={"3xl"} fontFamily={"Hind"}>{title}</Text>
+            <Text fontSize={"3xl"} fontFamily={"Hind"}>
+              {title}
+            </Text>
           </ModalHeader>
           <ModalBody>
             <Text fontFamily={"Hind-Regular"}>{modalContent}</Text>
