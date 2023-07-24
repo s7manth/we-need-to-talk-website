@@ -12,11 +12,11 @@ import GlobalStyles from "./components/GlobalStyles.ts";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
+    <Router>
     <ChakraProvider theme={theme}>
       <Global styles={GlobalStyles} />
-      <Router>
         <App />
-      </Router>
     </ChakraProvider>
+    </Router>
   </React.StrictMode>
 );
