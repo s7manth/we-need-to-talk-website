@@ -1,9 +1,10 @@
-import "./App.css";
-import { Route, Routes } from "react-router-dom";
 import "@fontsource/merriweather/700-italic.css";
+import { Route, Routes } from "react-router-dom";
+
+import "./App.css";
+import ArchivePage from "./screens/ArchivePage.tsx";
 import HomePage from "./screens/HomePage.tsx";
 import NotFound from "./screens/NotFound.tsx";
-import ArchivePage from "./screens/ArchivePage.tsx";
 
 function App() {
   return (

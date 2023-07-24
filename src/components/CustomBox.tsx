@@ -1,3 +1,4 @@
+import { Icon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
@@ -11,9 +12,7 @@ import {
   Tooltip,
   useDisclosure,
 } from "@chakra-ui/react";
-
 import { useState } from "react";
-import { Icon } from "@chakra-ui/icons";
 
 const Overlay = () => (
   <ModalOverlay bg="blackAlpha.300" backdropFilter="blur(10px)" />

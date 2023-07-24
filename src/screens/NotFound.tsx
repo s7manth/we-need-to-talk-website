@@ -1,12 +1,12 @@
+import { Icon } from "@chakra-ui/icons";
 import {
+  AbsoluteCenter,
+  Box,
   Button,
   Container,
   Link,
   Text,
-  Box,
-  AbsoluteCenter,
 } from "@chakra-ui/react";
-import { Icon } from "@chakra-ui/icons";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const NotFound = () => {

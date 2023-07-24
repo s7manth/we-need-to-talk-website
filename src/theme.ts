@@ -1,4 +1,4 @@
-import { extendTheme, defineStyle, defineStyleConfig } from "@chakra-ui/react";
+import { defineStyle, defineStyleConfig, extendTheme } from "@chakra-ui/react";
 import { mode } from "@chakra-ui/theme-tools";
 
 const dividerStyle = defineStyle({

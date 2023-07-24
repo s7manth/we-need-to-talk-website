@@ -1,17 +1,17 @@
+import { Icon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
   Card,
   CardBody,
   CardFooter,
-  Text,
-  Stack,
-  Img,
   Center,
+  Img,
   Link,
+  Stack,
+  Text,
 } from "@chakra-ui/react";
-import { Icon } from "@chakra-ui/icons";
-import { FaLink, FaEnvelope, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaLink, FaTwitter } from "react-icons/fa";
 
 const HostCard = ({
   name,
