@@ -1,3 +1,4 @@
+import { Icon } from "@chakra-ui/icons";
 import {
   Box,
   Button,
@@ -9,8 +10,8 @@ import {
   Spacer,
   Text,
 } from "@chakra-ui/react";
-import { Icon } from "@chakra-ui/icons";
 import { FaExternalLinkAlt, FaHome, FaYoutube } from "react-icons/fa";
+
 import youtubedata from "../data/youtubedata";
 
 const ArchivePage = () => {

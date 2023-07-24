@@ -1,3 +1,4 @@
+import { Icon } from "@chakra-ui/icons";
 import {
   Accordion,
   Box,
@@ -6,27 +7,27 @@ import {
   Container,
   Divider,
   Flex,
-  Heading,
   HStack,
+  Heading,
   Link,
   Spacer,
   Text,
   Wrap,
   WrapItem,
 } from "@chakra-ui/react";
-import CustomBox from "../components/CustomBox.tsx";
 import {
-  FaBrain,
   FaArchive,
+  FaBrain,
   FaGhost,
   FaHeart,
   FaSmile,
   FaYoutube,
 } from "react-icons/fa";
+
 import CustomAccordionItem from "../components/CustomAccordionItem.tsx";
-import VideoCard from "../components/VideoCard.tsx";
+import CustomBox from "../components/CustomBox.tsx";
 import HostCard from "../components/HostCard.tsx";
-import { Icon } from "@chakra-ui/icons";
+import VideoCard from "../components/VideoCard.tsx";
 import youtubedata from "../data/youtubedata.ts";
 
 const HomePage = () => {
