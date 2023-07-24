@@ -41,7 +41,9 @@ const ArchivePage = () => {
                   {obj.title}
                 </Text>
               </Box>
-              <Box textAlign={"left"} mt={2}>{obj.description}</Box>
+              <Box textAlign={"left"} mt={2}>
+                {obj.description}
+              </Box>
               <Flex justifyContent={"flex-begin"} mb={4} mt={3}>
                 <Link colorScheme="black" href={obj.link}>
                   <Icon as={FaExternalLinkAlt} /> Video
