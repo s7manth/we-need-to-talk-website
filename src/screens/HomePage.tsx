@@ -17,15 +17,17 @@ import {
 import CustomBox from "../components/CustomBox.tsx";
 import {
   FaBrain,
-  FaExternalLinkAlt,
+  FaArchive,
   FaGhost,
   FaHeart,
   FaSmile,
+  FaYoutube,
 } from "react-icons/fa";
 import CustomAccordionItem from "../components/CustomAccordionItem.tsx";
 import VideoCard from "../components/VideoCard.tsx";
 import HostCard from "../components/HostCard.tsx";
 import { Icon } from "@chakra-ui/icons";
+import youtubedata from "../data/youtubedata.ts";
 
 const HomePage = () => {
   return (
@@ -128,55 +130,35 @@ const HomePage = () => {
       </Box>
 
       <Accordion mt={4} allowToggle>
-        <CustomAccordionItem
-          title={"Episode 2 Part Two: Intoxications of (Nice) People"}
-        >
-          <VideoCard>
-            <iframe
-              src="https://www.youtube.com/embed/hPtZYY2ens8"
-              width={"100%"}
-              height={"100%"}
-              title=""
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                        gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </VideoCard>
-        </CustomAccordionItem>
-        <CustomAccordionItem
-          title={"Episode 2 Part One: The Search of Belongingness"}
-        >
-          <VideoCard>
-            <iframe
-              src="https://www.youtube.com/embed/tn19FX8ZkMU"
-              width={"100%"}
-              height={"100%"}
-              title="Episode 2 Part One: The Search Of Belongingness"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                        gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </VideoCard>
-        </CustomAccordionItem>
-        <CustomAccordionItem title={"Episode 1: Sports and Emotions"}>
-          <VideoCard>
-            <iframe
-              src="https://www.youtube.com/embed/kjFNX8XLBtw"
-              width={"100%"}
-              height={"100%"}
-              title="Episode 1: Sports and Emotions"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media;
-                        gyroscope; picture-in-picture; web-share"
-              allowFullScreen
-            ></iframe>
-          </VideoCard>
-        </CustomAccordionItem>
+        {youtubedata.slice(0, 4).map((value, i) => (
+          <CustomAccordionItem title={value.title}>
+            <VideoCard key={i}>
+              <iframe
+                src={value.link}
+                width={"100%"}
+                height={"100%"}
+                title={value.title}
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                          gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
+            </VideoCard>
+          </CustomAccordionItem>
+        ))}
       </Accordion>
+
+      <Box mt={4}>
+        <Link href={"https://youtube.com/@WeNtTalk"}>
+          <Button colorScheme={"red"}>
+            <Icon as={FaYoutube} /> &nbsp; YouTube Channel
+          </Button>
+        </Link>
+      </Box>
 
       <Box mt={4}>
         <Link href={"/archive"}>
           <Button colorScheme={"orange"}>
-            <Icon as={FaExternalLinkAlt} /> &nbsp; Archive
+            <Icon as={FaArchive} /> &nbsp; Archive
           </Button>
         </Link>
       </Box>
