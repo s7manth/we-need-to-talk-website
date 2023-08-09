@@ -34,6 +34,13 @@ const youtubedata: VideoMetadata[] = [
     description:
       "In this episode, we take a break from the heavy discussions and talk a bit about our shared favourite source of entertainment, watching movies. We share about our favourite movies and their creators, and give suggestions on what are viewers should watch next. Obviously, along with our next video.",
   },
+  {
+    link: "https://www.youtube.com/embed/WRnAcQ7l8WI",
+    title: "Episode 4 Part One: Being Learned v/s Being Educated",
+    index: 5,
+    description:
+      "In this epsiode, we ponder upon the idea of learning and education. How do they differ, and what are the elements that separate both of them?"
+  }
 ];
 
 youtubedata.sort((a: VideoMetadata, b: VideoMetadata) => b.index - a.index);
